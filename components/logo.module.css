@@ -1,0 +1,30 @@
+.icon,
+.nexcentIcon {
+  height: 29.7px;
+  width: 43.3px;
+  position: relative;
+  flex-shrink: 0;
+}
+.nexcentIcon {
+  width: 137.8px;
+  height: 25.5px;
+}
+.logo,
+.nexcentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nexcentWrapper {
+  height: 27.6px;
+  width: 137.8px;
+  flex-direction: column;
+  padding: var(--padding-10xs-1) 0 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 191px;
+  height: 29.7px;
+  flex-direction: row;
+  gap: var(--gap-3xs-9);
+}

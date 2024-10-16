@@ -1,0 +1,37 @@
+.label {
+  height: 24px;
+  width: 91px;
+  position: relative;
+  font-size: var(--body-medium-body-2-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-regular-body-3);
+  color: var(--neutral-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.arrowsDirectionsrightWrapper,
+.button {
+  height: 20px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-13xl);
+  background-color: var(--brand-primary);
+  height: 52px;
+  width: 178px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
